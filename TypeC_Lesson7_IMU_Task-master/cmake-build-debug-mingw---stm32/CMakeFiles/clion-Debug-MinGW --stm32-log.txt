@@ -1,0 +1,10 @@
+C:\Users\34642\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=D:/clion/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe -DCMAKE_CXX_COMPILER=D:/clion/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++.exe -G "CodeBlocks - MinGW Makefiles" -S D:\clion\TypeC_Lesson7_IMU_Task-master -B D:\clion\TypeC_Lesson7_IMU_Task-master\cmake-build-debug-mingw---stm32
+-- Minimal optimization, debug info included
+CMake Error at CMakeLists.txt:66 (target_link_libraries):
+  Cannot specify link libraries for target "DBUS" which is not built by this
+  project.
+
+
+-- Configuring incomplete, errors occurred!
+See also "D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32/CMakeFiles/CMakeOutput.log".
+See also "D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32/CMakeFiles/CMakeError.log".

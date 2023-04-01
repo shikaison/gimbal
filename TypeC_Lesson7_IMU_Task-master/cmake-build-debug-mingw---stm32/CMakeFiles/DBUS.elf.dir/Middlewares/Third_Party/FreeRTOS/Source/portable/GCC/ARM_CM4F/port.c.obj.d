@@ -1,0 +1,19 @@
+CMakeFiles/DBUS.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: \
+ D:\clion\TypeC_Lesson7_IMU_Task-master\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c \
+ D:\clion\TypeC_Lesson7_IMU_Task-master\Middlewares\Third_Party\FreeRTOS\Source\include/FreeRTOS.h \
+ d:\clion\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h \
+ d:\clion\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
+ d:\clion\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdint.h \
+ d:\clion\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_default_types.h \
+ d:\clion\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\features.h \
+ d:\clion\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_newlib_version.h \
+ d:\clion\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_intsup.h \
+ d:\clion\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_stdint.h \
+ D:\clion\TypeC_Lesson7_IMU_Task-master\Inc/FreeRTOSConfig.h \
+ D:\clion\TypeC_Lesson7_IMU_Task-master\Middlewares\Third_Party\FreeRTOS\Source\include/projdefs.h \
+ D:\clion\TypeC_Lesson7_IMU_Task-master\Middlewares\Third_Party\FreeRTOS\Source\include/portable.h \
+ D:\clion\TypeC_Lesson7_IMU_Task-master\Middlewares\Third_Party\FreeRTOS\Source\include/deprecated_definitions.h \
+ D:\clion\TypeC_Lesson7_IMU_Task-master\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F/portmacro.h \
+ D:\clion\TypeC_Lesson7_IMU_Task-master\Middlewares\Third_Party\FreeRTOS\Source\include/mpu_wrappers.h \
+ D:\clion\TypeC_Lesson7_IMU_Task-master\Middlewares\Third_Party\FreeRTOS\Source\include/task.h \
+ D:\clion\TypeC_Lesson7_IMU_Task-master\Middlewares\Third_Party\FreeRTOS\Source\include/list.h

@@ -1,0 +1,3 @@
+D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32/CMakeFiles/DBUS.elf.dir
+D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32/CMakeFiles/edit_cache.dir
+D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32/CMakeFiles/rebuild_cache.dir

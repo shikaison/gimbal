@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DBUS"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/34642/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/34642/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/34642/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/34642/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DBUS.elf">
+				<Option output="D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32/DBUS.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="D:/clion/TypeC_Lesson7_IMU_Task-master/Inc"/>
+					<Add directory="D:/clion/TypeC_Lesson7_IMU_Task-master/bsp"/>
+					<Add directory="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="D:/clion/TypeC_Lesson7_IMU_Task-master/application"/>
+					<Add directory="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/Include"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/34642/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32/Makefile&quot;  VERBOSE=1 DBUS.elf"/>
+					<CompileFile command="C:/Users/34642/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/34642/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/34642/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DBUS.elf/fast">
+				<Option output="D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32/DBUS.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="D:/clion/TypeC_Lesson7_IMU_Task-master/Inc"/>
+					<Add directory="D:/clion/TypeC_Lesson7_IMU_Task-master/bsp"/>
+					<Add directory="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="D:/clion/TypeC_Lesson7_IMU_Task-master/application"/>
+					<Add directory="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/Include"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/34642/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32/Makefile&quot;  VERBOSE=1 DBUS.elf/fast"/>
+					<CompileFile command="C:/Users/34642/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/34642/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/34642/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/34642/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/34642/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/34642/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/34642/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/34642/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/34642/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/34642/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/34642/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;D:/clion/TypeC_Lesson7_IMU_Task-master/cmake-build-debug-mingw---stm32/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/CMSIS/LICENSE.txt">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/STM32F407IGHx_FLASH.ld">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Src/can.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Src/dma.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Src/freertos.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Src/gpio.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Src/i2c.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Src/main.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Src/spi.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Src/stm32f4xx_hal_msp.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Src/stm32f4xx_hal_timebase_tim.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Src/stm32f4xx_it.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Src/syscalls.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Src/system_stm32f4xx.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Src/tim.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/Src/usart.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/application/CAN_receive.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/application/CAN_receive.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/application/INS_task.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/application/INS_task.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/application/arm_math.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/application/chassis_behaviour.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/application/chassis_behaviour.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/application/chassis_task.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/application/chassis_task.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/application/pid.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/application/pid.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/application/remote_control.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/application/remote_control.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/application/struct_typedef.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/application/user_lib.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/application/user_lib.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/bsp/AHRS.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/bsp/AHRS.lib">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/bsp/AHRS_middleware.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/bsp/AHRS_middleware.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/bsp/BMI088Middleware.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/bsp/BMI088Middleware.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/bsp/BMI088driver.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/bsp/BMI088driver.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/bsp/BMI088reg.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/bsp/MahonyAHRS.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/bsp/MahonyAHRS.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/bsp/bsp_can.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/bsp/bsp_can.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/bsp/bsp_delay.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/bsp/bsp_delay.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/bsp/bsp_imu_pwm.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/bsp/bsp_imu_pwm.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/bsp/bsp_rc.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/bsp/bsp_rc.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/bsp/bsp_spi.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/bsp/bsp_spi.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/bsp/ist8310driver.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/bsp/ist8310driver.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/bsp/ist8310driver_middleware.c">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/bsp/ist8310driver_middleware.h">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/startup/startup_stm32f407xx.s">
+			<Option target="DBUS.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/TypeC_Lesson7_IMU_Task-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
